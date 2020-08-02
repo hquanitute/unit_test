@@ -1,0 +1,22 @@
+{
+    "content": {
+        "title": "Python: Reverse a String",
+        "challengeType": 222,
+        "video": null,
+        "forumTopicId": "",
+        "tests":     "import unittest\n\ndef reverseString(str):\n    return str[::-1]\n\nclass TestReverseString(unittest.TestCase):\n    def test_should_return_string(self):\n        self.assertEqual(type(reverseString(\"hello\")) is str, True)\n        \n    def test_case1(self):\n        self.assertEqual(reverseString(\"hello\"), \"olleh\")\n\n    def test_case2(self):\n        self.assertEqual(reverseString(\"Howdy\"), \"ydwoH\")\n\n    def test_case3(self):\n        self.assertEqual(reverseString(\"Greetings from Earth\"), \"htraE morf sgniteerG\")\n\nif _name_ == '_main_':\n    unittest.main()",
+        "contents":  "import unittest\n\ndef reverseString(str):\n    return str\n\nclass TestReverseString(unittest.TestCase):\n    def test_should_return_string(self):\n        self.assertEqual(type(reverseString(\"hello\")) is str, True)\n        \n    def test_case1(self):\n        self.assertEqual(reverseString(\"hello\"), \"olleh\")\n\n    def test_case2(self):\n        self.assertEqual(reverseString(\"Howdy\"), \"ydwoH\")\n\n    def test_case3(self):\n        self.assertEqual(reverseString(\"Greetings from Earth\"), \"htraE morf sgniteerG\")\n\nif _name_ == '_main_':\n    unittest.main()",
+        "block": null,
+        "dashedName": null,
+        "order": -1,
+        "superOrder": -1,
+        "superBlock": null,
+        "challengeOrder": 1,
+        "isPublished": true,
+        "isRequired": true,
+        "time": 30,
+        "runResult": "....----------------------------------------------------------------------Ran 4 tests in 0.000sOK",
+        "_id": "5f0f326da149b50004366558",
+        "__v": 0
+    }
+}
